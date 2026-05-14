@@ -118,7 +118,7 @@ ifconfig
 
 echo "Setting up autostart..."
 mkdir -p ~/.termux/boot/
-wget -P ~/.termux/boot/ "https://raw.githubusercontent.com/T-vK/wyoming-satellite-termux/refs/heads/main/wyoming-satellite-android"
+wget -P ~/.termux/boot/ "https://raw.githubusercontent.com/MoKuH/wyoming-satellite-termux/refs/heads/main/wyoming-satellite-android"
 chmod +x ~/.termux/boot/wyoming-satellite-android
 
 echo "Setting up widget shortcut..."
